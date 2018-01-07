@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+  <button name="select_first" x="0" y="0" label="Select As First"
+    width="128" height="24">
+    <param type="string" value="select_first"/>
+  </button>
+  <button name="select_second" x="0" y="24" label="Select As Second"
+    width="128" height="24">
+    <param type="string" value="select_second"/>
+  </button>
+  <button name="sell_first" x="0" y="48" label="Sell First"
+    width="128" height="24">
+    <param type="string" value="sell_first"/>
+  </button>
+  <button name="sell_second" x="0" y="72" label="Sell Second"
+    width="128" height="24">
+    <param type="string" value="sell_second"/>
+  </button>
+  <button name="mix" x="0" y="96" label="Mix"
+    width="128" height="24">
+    <param type="string" value="mix"/>
+  </button>
+  <button name="reset" x="0" y="120" label="Reset"
+    width="128" height="24">
+    <param type="string" value="reset"/>
+  </button>
+
+  <mode name="touch">
+    <show name="select_first" />
+    <show name="select_second" />
+    <show name="sell_first" />
+    <show name="sell_second" />
+    <show name="mix" />
+    <show name="reset" />
+  </mode>
+
+  <mode name="no_touch">
+    <hide name="select_first" />
+    <hide name="select_second" />
+    <hide name="sell_first" />
+    <hide name="sell_second" />
+    <hide name="mix" />
+    <hide name="reset" />
+  </mode>
+</data>
